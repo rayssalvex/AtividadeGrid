@@ -1,0 +1,377 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . . . . preto-1 preto-1 preto-1 preto-1 preto-1 . . . . ."
+        ". . . preto-2 preto-2 amarelo-1 amarelo-1 amarelo-1 amarelo-1 amarelo-1 preto-3 preto-3 . . ."
+        ". . preto-4 amarelo-2 amarelo-2 amarelo-2 amarelo-2 amarelo-2 amarelo-2 amarelo-2 amarelo-2 amarelo-2 preto-5 . ."
+        ". preto-6 amarelo-3 amarelo-3 amarelo-3 amarelo-3 amarelo-3 amarelo-3 amarelo-3 amarelo-3 amarelo-3 amarelo-3 amarelo-3 preto-7 ."
+        ". preto-8 amarelo-4 amarelo-4 amarelo-4 amarelo-4 amarelo-4 amarelo-4 amarelo-4 amarelo-4 amarelo-4 amarelo-4 amarelo-4 preto-9 ."
+        "preto-10 preto-10 preto-10 preto-10 preto-10 preto-10 preto-10 preto-10 preto-10 preto-10 preto-10 preto-10 preto-10 preto-10 preto-10"
+        "preto-11 amarelo-5 preto-12 preto-12 . . preto-13 preto-13 preto-13 preto-13 . . preto-14 amarelo-6 preto-15"
+        "preto-16 amarelo-7 preto-17 preto-17 preto-17 . preto-18 amarelo-8 preto-19 preto-19 preto-19 . preto-20 amarelo-9 preto-21"
+        "preto-22 amarelo-10 amarelo-10 preto-23 preto-23 preto-23 amarelo-11 amarelo-11 amarelo-11 preto-24 preto-24 preto-24 amarelo-12 amarelo-12 preto-25"
+        "preto-26 amarelo-13 amarelo-13 amarelo-13 amarelo-13 amarelo-13 amarelo-13 amarelo-13 amarelo-13 amarelo-13 amarelo-13 amarelo-13 amarelo-13 amarelo-13 preto-27"
+        ". preto-28 amarelo-14 amarelo-14 amarelo-14 amarelo-14 amarelo-14 amarelo-14 amarelo-14 amarelo-14 amarelo-14 amarelo-14 amarelo-14 preto-29 ."
+        ". preto-30 amarelo-15 amarelo-15 amarelo-15 preto-31 amarelo-16 amarelo-16 amarelo-16 preto-32 amarelo-17 amarelo-17 amarelo-17 preto-33 ."
+        ". . preto-34 amarelo-18 amarelo-18 amarelo-18 preto-35 preto-35 preto-35 amarelo-19 amarelo-19 amarelo-19 preto-36 . ."
+        ". . . preto-37 preto-37 amarelo-20 amarelo-20 amarelo-20 amarelo-20 amarelo-20 preto-38 preto-38 . . ."
+        ". . . . . preto-39 preto-39 preto-39 preto-39 preto-39 . . . . .";
+}
+
+.preto-2 {
+    grid-area: preto-2;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-1 {
+    grid-area: preto-1;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-3 {
+    grid-area: preto-3;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-4 {
+    grid-area: preto-4;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-5 {
+    grid-area: preto-5;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-6 {
+    grid-area: preto-6;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-7 {
+    grid-area: preto-7;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-8 {
+    grid-area: preto-8;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-9 {
+    grid-area: preto-9;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-10 {
+    grid-area: preto-10;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-11 {
+    grid-area: preto-11;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-12 {
+    grid-area: preto-12;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-13 {
+    grid-area: preto-13;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-14 {
+    grid-area: preto-14;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-15 {
+    grid-area: preto-15;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-16 {
+    grid-area: preto-16;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-17 {
+    grid-area: preto-17;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-18 {
+    grid-area: preto-18;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-19 {
+    grid-area: preto-19;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-20 {
+    grid-area: preto-20;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-21 {
+    grid-area: preto-21;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-22 {
+    grid-area: preto-22;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-23 {
+    grid-area: preto-23;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-24 {
+    grid-area: preto-24;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-25 {
+    grid-area: preto-25;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-26 {
+    grid-area: preto-26;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-27 {
+    grid-area: preto-27;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-28 {
+    grid-area: preto-28;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-29 {
+    grid-area: preto-29;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-30 {
+    grid-area: preto-30;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-31 {
+    grid-area: preto-31;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-32 {
+    grid-area: preto-32;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-33 {
+    grid-area: preto-33;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-34 {
+    grid-area: preto-34;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-35 {
+    grid-area: preto-35;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-36 {
+    grid-area: preto-36;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-37 {
+    grid-area: preto-37;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-38 {
+    grid-area: preto-38;
+    height: 40px;
+    background-color: black;
+}
+
+.preto-39 {
+    grid-area: preto-39;
+    height: 40px;
+    background-color: black;
+}
+
+.amarelo-2 {
+    grid-area: amarelo-2;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-1 {
+    grid-area: amarelo-1;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-3 {
+    grid-area: amarelo-3;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-4 {
+    grid-area: amarelo-4;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-5 {
+    grid-area: amarelo-5;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-6 {
+    grid-area: amarelo-6;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-7 {
+    grid-area: amarelo-7;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-8 {
+    grid-area: amarelo-8;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-9 {
+    grid-area: amarelo-9;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-10 {
+    grid-area: amarelo-10;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-11 {
+    grid-area: amarelo-11;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-12 {
+    grid-area: amarelo-12;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-13 {
+    grid-area: amarelo-13;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-14 {
+    grid-area: amarelo-14;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-15 {
+    grid-area: amarelo-15;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-16 {
+    grid-area: amarelo-16;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-17 {
+    grid-area: amarelo-17;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-18 {
+    grid-area: amarelo-18;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-19 {
+    grid-area: amarelo-19;
+    height: 40px;
+    background-color: yellow;
+}
+
+.amarelo-20 {
+    grid-area: amarelo-20;
+    height: 40px;
+    background-color: yellow;
+}

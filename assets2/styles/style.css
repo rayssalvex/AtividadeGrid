@@ -1,0 +1,291 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "box1 box1 box1 box3 box4 box4 box5 box5 box6 box6 box6 box6 box9 box9 box10 box10 box10 box10"
+        "box2 box2 box2 box3 box4 box4 box5 box5 box7 box7 box8 box8 box9 box9 box10 box10 box10 box10"
+        "box11 box12 box12 box12 box14 box14 box14 box14 box16 box16 box16 box16 box16 box16 box19 box19 box20 box20"
+        "box11 box12 box12 box12 box15 box15 box15 box15 box16 box16 box16 box16 box16 box16 box21 box21 box21 box21"
+        "box11 box13 box13 box13 box15 box15 box15 box15 box17 box17 box18 box18 box29 box29 box30 box30 box30 box30"
+        "box22 box22 box23 box23 box25 box25 box25 box25 box28 box28 box28 box28 box29 box29 box30 box30 box30 box30"
+        "box22 box22 box23 box23 box26 box26 box27 box27 box28 box28 box28 box28 box29 box29 box32 box32 box33 box33"
+        "box24 box24 box24 box24 box26 box26 box27 box27 box31 box31 box31 box31 box31 box31 box32 box32 box33 box33"
+        "box34 box34 box34 box36 box37 box37 box37 box37 box39 box39 box40 box40 box40 box40 box32 box32 box33 box33"
+        "box34 box34 box34 box36 box37 box37 box37 box37 box39 box39 box40 box40 box40 box40 box43 box43 box43 box43"
+        "box35 box35 box35 box36 box38 box38 box38 box38 box39 box39 box41 box41 box42 box42 box44 box44 box44 box44";
+}
+
+.box1 {
+    grid-area: box1;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box2 {
+    grid-area: box2;
+
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box3 {
+    grid-area: box3;
+
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box4 {
+    grid-area: box4;
+
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box5 {
+    grid-area: box5;
+
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box6 {
+    grid-area: box6;
+
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box7 {
+    grid-area: box7;
+
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box8 {
+    grid-area: box8;
+
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box9 {
+    grid-area: box9;
+
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box10 {
+    grid-area: box10;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box11 {
+    grid-area: box11;
+    height: 130px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box12 {
+    grid-area: box12;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box13 {
+    grid-area: box13;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box14 {
+    grid-area: box14;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box15 {
+    grid-area: box15;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box16 {
+    grid-area: box16;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box17 {
+    grid-area: box17;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box18 {
+    grid-area: box18;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box19 {
+    grid-area: box19;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box20 {
+    grid-area: box20;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box21 {
+    grid-area: box21;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box22 {
+    grid-area: box22;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box23 {
+    grid-area: box23;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box25 {
+    grid-area: box25;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box26 {
+    grid-area: box26;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box27 {
+    grid-area: box27;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box28 {
+    grid-area: box28;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box29 {
+    grid-area: box29;
+    height: 130px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box30 {
+    grid-area: box30;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box31 {
+    grid-area: box31;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box32 {
+    grid-area: box32;
+    height: 130px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box33 {
+    grid-area: box33;
+    height: 130px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box24 {
+    grid-area: box24;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box34 {
+    grid-area: box34;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box35 {
+    grid-area: box35;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box36 {
+    grid-area: box36;
+    height: 130px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box37 {
+    grid-area: box37;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box38 {
+    grid-area: box38;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box39 {
+    grid-area: box39;
+    height: 130px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box40 {
+    grid-area: box40;
+    height: 85px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box41 {
+    grid-area: box41;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box42 {
+    grid-area: box42;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box43 {
+    grid-area: box43;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
+
+.box44 {
+    grid-area: box44;
+    height: 40px;
+    background-color: rgb(138, 138, 212);
+}
